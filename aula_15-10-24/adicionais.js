@@ -35,3 +35,13 @@ function conhecaNossaEquipe(){
         }
     }
 }
+
+function conhecaNossosProdutos(){
+    var listaProdutos = ["shampoo", "sabonete", "condicionador", "pasta dental"];
+
+    var i = 0;
+    while(i<listaProdutos.length){
+        document.write(listaProdutos[i], "<br>");
+        i++;
+    }
+}
