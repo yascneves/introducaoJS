@@ -1,6 +1,6 @@
 function entrarEmContato(){
     var whatsapp = prompt("Digite seu telefone:");
-    document.write("Entraremos em contato com você atravésdo número ",+whatsapp);
+    document.write("Entraremos em contato com você atravésdo número +", whatsapp);
 }
 
 function conhecaNossaEquipe(){
@@ -25,13 +25,7 @@ function conhecaNossaEquipe(){
                 opcaoValida = true;
                 break;
         default:
-            document.write("Opção Inválida.")
-            opcao = prompt("Digite 1 ou 2: ")
-        }
-        
-        for (var i = 0; i<listaEquipe.length; i++){
-            document.write(listaEquipe[i], "<br>");
-            document.write(emailEquipe[i], "<br>");
+            opcao = prompt("Opção Inválida. Digite 1 ou 2: ")
         }
     }
 }
